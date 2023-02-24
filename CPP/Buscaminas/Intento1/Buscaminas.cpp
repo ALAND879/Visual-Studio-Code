@@ -48,10 +48,12 @@ int barrer_arriba_derecha(int f, int col){
         cout<<" ";
         barrer_arriba_derecha(f,col-1);
         barrer_arriba_derecha(f+1,col);
-        return 0;
+        return f;
+        return col;
     }
     else{
-        return 0;
+        return f;
+        return col;
     }
 }
 
@@ -178,7 +180,7 @@ int juego_medio(){
 //modo de juego 3
 int juego_dificil(){
     
-    llenar_tablero(19);
+    llenar_tablero(19);                   
     cout<<"\nPara desplazarte usa las flechas en el teclado, presiona enter cuando llegues al lugar deseado, empiezas en la esquina superior izquierda.\n\n";
     mostrar_tablero(19);
     return 0;
