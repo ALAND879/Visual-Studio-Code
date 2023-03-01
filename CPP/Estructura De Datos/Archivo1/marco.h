@@ -1,10 +1,3 @@
-#include <conio.h>
-#include <stdio.h>
-#include <windows.h>
-#include <iostream>
-using namespace std;
-void marco();
-int gotoxy(int x, int y);
 
 int gotoxy(int x, int y){
     HANDLE hCon;
@@ -14,11 +7,6 @@ int gotoxy(int x, int y){
     dwPos.Y=y;
     SetConsoleCursorPosition(hCon,dwPos);
     return 0;
-}
-
-int main(){
-    marco();
-    getch();
 }
 
 void marco(){
