@@ -16,8 +16,8 @@ fflush(stdin);
 
 for (int i = 0; i < strlen(pal); i++)
 {
-    printf("%c", pal);
+    printf("%c", pal[i]);
 }
-
+printf("\n");
 
 }
