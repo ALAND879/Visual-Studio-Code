@@ -12,7 +12,7 @@ int main(){
     cin.getline(cadena1, 30, '\n');
     cout<<"Ingresa la segunda cadena: ";
     cin.getline(cadena2, 30, '\n');
-    cout<<"endl";
+    cout<<endl;
 
     if(strcmp(cadena1,cadena2)==0){
         cout<<"Ambas cadenas son iguales"<<endl;

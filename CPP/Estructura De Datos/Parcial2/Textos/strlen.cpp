@@ -21,5 +21,5 @@ int main(){
     {
         cout<<l<<endl;
     }
-    
+ getch();   
 }
