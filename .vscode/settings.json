@@ -3,5 +3,9 @@
         "iostream": "cpp"
     },
     "cmake.configureOnOpen": false,
-    "editor.fontFamily": "'JetBrains Mono', monospace"
+    "editor.fontFamily": "'JetBrains Mono', monospace",
+    "files.autoSave": "onWindowChange",
+    "editor.fontSize": 15,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.guides.bracketPairs": "active"
 }
