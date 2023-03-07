@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "random": "cpp"
     },
     "cmake.configureOnOpen": false,
     "editor.fontFamily": "'JetBrains Mono', monospace",
